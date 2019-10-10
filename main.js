@@ -54,8 +54,13 @@ appendArguments(basquiat)
 
 
 function imageHeight(img){
-    const changeHeight = document.querySelector('img')
+    const changeHeight = document.querySelector(img)
     changeHeight.style.height = "30px"
 }
 
 imageHeight('img')
+
+function invisibility(element){
+    const invisibileClass = document.querySelector(element)
+    invisibileClass.className = 'invisible'
+}
