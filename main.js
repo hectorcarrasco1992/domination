@@ -68,3 +68,21 @@ function invisibility(element){
 invisibility('#heading')
 
 
+function fontSize1 (id, size1){
+    const targetId = document.querySelector(id)
+    targetId.style.fontSize = size1
+}
+
+fontSize1('#copy', "300px")
+
+
+function newLi (text){
+    const newBornLi = document.createElement('li')
+    newBornLi.innerText = text
+
+    return newBornLi
+}
+
+appendArguments(newLi('OMG my function works!'))
+
+// function newHeader ()
