@@ -73,7 +73,7 @@ function fontSize1 (id, size1){
     targetId.style.fontSize = size1
 }
 
-fontSize1('#copy', "300px")
+fontSize1('#lorem' ,'100px')
 
 
 function newLi (text){
@@ -85,4 +85,12 @@ function newLi (text){
 
 appendArguments(newLi('OMG my function works!'))
 
-// function newHeader ()
+function newHeader (header1,someText){
+    const heezy = document.createElement('h3')
+    heezy.innerText= someText
+    heezy.style.fontSize = header1
+
+    return heezy
+}
+
+appendArguments(newHeader('200px', 'yerr this is my new header '))
