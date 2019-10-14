@@ -61,6 +61,10 @@ function imageHeight(img){
 imageHeight('img')
 
 function invisibility(element){
-    const invisibileClass = document.querySelector(element)
-    invisibileClass.className = 'invisible'
+    const invisibleClass = document.querySelector(element)
+    invisibleClass.className = 'invisible'
 }
+
+invisibility('#heading')
+
+
