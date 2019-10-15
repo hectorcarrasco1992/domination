@@ -1,14 +1,15 @@
 function setImageId(id,url){
-    id.src = url
+    const newPic = document.querySelector(id)
+    newPic.src = url
 }
 
-const newPic =document.querySelector('#image-1')
-const newPic2 =document.querySelector('#image-2')
-const newPic3 =document.querySelector('#image-3')
+// const newPic =document.querySelector('#image-1')
+// const newPic2 =document.querySelector('#image-2')
+// const newPic3 =document.querySelector('#image-3')
 
-setImageId(newPic,'https://media.giphy.com/media/50rCgxatPH4be/source.gif')
-setImageId(newPic2,'https://media.giphy.com/media/50rCgxatPH4be/source.gif')
-setImageId(newPic3,'https://media.giphy.com/media/50rCgxatPH4be/source.gif')
+setImageId('#image-1','https://media.giphy.com/media/50rCgxatPH4be/source.gif')
+setImageId('#image-2','https://media.giphy.com/media/50rCgxatPH4be/source.gif')
+setImageId('#image-3','https://media.giphy.com/media/50rCgxatPH4be/source.gif')
 
 
 
