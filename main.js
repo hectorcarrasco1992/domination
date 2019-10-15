@@ -19,7 +19,7 @@ function putLineThrough(listItem){
 
 }
 
-putLineThrough('#arguments li:first-child')
+putLineThrough()
 
 
 function removeNode1(lastItem){
